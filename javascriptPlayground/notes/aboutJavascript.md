@@ -48,10 +48,53 @@ ECMAScript
     - Kotlin 
         - modern, concise and safe programming language that can target the browser or Node 
 
+# A bit of history 
 
-# ECMA
-The ECMA-262 specification contains the most in-depth, detailed and formalized information about JavaScript. It defines the language.
+#  Ecma and TC39
+- Ecma international is an industry association dedicated to the standardization of information and communication systems.
+- Javascript was submitted by netscape to Ecma, so they can build out a standard specification, hoping that would keep implementations consistent across browsers.
+- Under Ecma, each new specification comes with: 
+    - a standard (Ecma-262)
+    - a comitee who works on the standard (TC39)
+- In the standard, javascript is referred  to as "EcmaScript" (Oracle owns the trademark for javascript, so it's to avoid legal issues)
+- In common language,ECMAScript( ES) is used as a way to refer to the standard.
+- TC39 (Technical commitee 39) is  made up of members who are  browser vendors and large companies who  have invested heavily in the web (facebook, paypal), these members will send representatives, who will be responsible for : 
+    - creating
+    - approving
+    - and denying  proposals
+
+#  ECMAScript  release 
+-  As of 2016, a new version of ECMAScript is released every year with whatever features are ready at that time, any stage 4 proposals that  exist when a new release happens, will be included in that release.
+
+# The process behind proposals
+- When a new proposal is created, it has to go through several stages before it comes part of the official specification. To move from one stage to another, a large majority of TC39 must agree while nobody disagress hard enough to go against it. 
+- the process is described here : https://tc39.es/process-document/
 
 
+## Stage 0 
+- the stawman stage
+- planned to be presentented, or already presented but not rejected definitively
+- have not achieved criteria for stage 1 
+- the only requirement  for stage 0 is that for the proposal's document to be reviewed at a meeting 
+- using a stage 0 proposal in a code base is fine, but it's risky because even if it becomes official, it  could suffer changes
 
+## Stage 1 
+-  a member of TC39 must become the "champion" of the proposal, they will be responsible of the proposal
+-  What does the proposal try to solve? 
+-  How does it work?  
+- A high-level api 
+
+## Stage 2 
+- description of the syntax and semantics of the new feature
+- locks down all the aspects of the feature
+- feature changes may still occur, but they should be small and incremental
+
+## Stage 3 
+- mostly finished but needs feedback from implementors 
+- spec text must be finished at least two spec compliant implementations must be created.
+
+## Stage 4 
+-  tests must be written
+-  members should have significant practical expierence with the new feature
+- the ecmascript spec editor must sign off on the spec text 
 
