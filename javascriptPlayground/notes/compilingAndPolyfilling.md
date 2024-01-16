@@ -42,7 +42,7 @@ Arrow functions and template strings do get turned into ES5 equivalents, but for
 That means, that for certain features,  we need to do something different, that is polyfilling.
 
 # Compiling vs polyfilling
-Compililing can only change the syntax of the code to an older version, it can't add new methods or change existing ones:
+Compiling can only change the syntax of the code to an older version, it can't add new methods or change existing ones:
 - Destructuring, classes, and arrow functions can be compiled, because they can be  rewritten with the old syntax, but things like fetch, promises and string.includes need to be polyfilled
 
 # Features that need to compiled
