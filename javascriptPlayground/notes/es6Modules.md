@@ -24,13 +24,6 @@ It all started with IIFE  (immdiately invoked function expression)
 The upside is that IIFE doesn't polute the window object but  the order of the scripts still matter.
 
 
-## Exporting
-
-
-
-## Importing
-
-
 ## CommonJS
 - defines a module format to solve js scope issues by making sure each module is executed in its own namespace. This is achieved by forcing modules to explictily export those variables  it wants to expose to the "universe", and also by defining those other modules required to properly work.
 - common js is baked into node 
